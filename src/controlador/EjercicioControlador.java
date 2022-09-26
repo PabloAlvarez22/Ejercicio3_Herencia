@@ -23,4 +23,76 @@ public class EjercicioControlador {
     private ArrayList<Revista>revistas = new ArrayList();
     private ArrayList<Articulo>articulos = new ArrayList();
     
+    /*
+     * Método para guardar cliente 
+     * */    
+        public boolean guardarCliente(Cliente cliente){
+            boolean flag= false;
+            try{
+                clientes.add(cliente);
+                flag = true;
+            }catch(Exception ex){
+                System.out.println("ALGO MALO HA OCURRIDO");
+                
+            }
+            
+            
+            return flag;
+        }
+        
+    /*
+    * Método para guardar libro
+    * */       
+        
+        public boolean guardarLibro(Libro libro){
+            boolean flag= false;
+            
+             try{
+                libros.add(libro);
+                flag = true;
+            }catch(Exception ex){
+                System.out.println("ALGO MALO HA OCURRIDO");
+                
+            }
+            
+            
+            return flag;
+        }
+        
+    /*
+    * Método para guardar revistas
+    * */  
+        public boolean guardarRevista(Revista revista){
+            boolean flag= false;
+            
+             try{
+                revistas.add(revista);
+                flag = true;
+            }catch(Exception ex){
+                System.out.println("ALGO MALO HA OCURRIDO");
+                
+            }
+            
+            
+            return flag;
+        }
+        /*
+         * Método para guardar artículo 
+         * */    
+        public boolean guardarArticulo(Articulo articulo){
+            boolean flag= false;
+            
+             try{
+                articulos.add(articulo);
+                flag = true;
+            }catch(Exception ex){
+                System.out.println("ALGO MALO HA OCURRIDO");
+                
+            }
+
+            return flag;
+            
+        }
+        
+    
 }
