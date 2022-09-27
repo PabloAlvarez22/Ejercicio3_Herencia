@@ -20,9 +20,8 @@ public class Revista  extends LibroPadre {
         
     }
 
-    /*
-     * Se crearon los getters y setters dependiendo de los atributos.
-     * */  
+    // Se crearon los getters y setters dependiendo de los atributos.
+       
     
     public int getAnio() {
         return anio;

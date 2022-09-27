@@ -17,9 +17,7 @@ public class LibroPadre {
         this.estado = estado;
     }
     
-    /*
-     * Se crearon los getters y setters dependiendo de los atributos.
-     * */  
+    //Se crearon los getters y setters dependiendo de los atributos.
 
     public int getNumeroIdentificacion() {
         return numeroIdentificacion;

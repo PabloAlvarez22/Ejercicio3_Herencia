@@ -23,9 +23,7 @@ public class EjercicioControlador {
     private ArrayList<Revista>revistas = new ArrayList();
     private ArrayList<Articulo>articulos = new ArrayList();
     
-/*
- * Método para guardar cliente 
- * */    
+// Método para guardar cliente     
     public boolean guardarCliente(Cliente cliente){
         boolean flag= false;
         try{
@@ -40,9 +38,7 @@ public class EjercicioControlador {
         return flag;
     }
     
-/*
-* Método para guardar libro
-* */       
+ // Método para guardar libro    
     
     public boolean guardarLibro(Libro libro){
         boolean flag= false;
@@ -59,9 +55,8 @@ public class EjercicioControlador {
         return flag;
     }
     
-/*
-* Método para guardar revistas
-* */  
+ // Método para guardar revistas  
+    
     public boolean guardarRevista(Revista revista){
         boolean flag= false;
         
@@ -76,9 +71,9 @@ public class EjercicioControlador {
         
         return flag;
     }
-    /*
-     * Método para guardar artículo 
-     * */    
+    
+//Método para guardar artículo 
+        
     public boolean guardarArticulo(Articulo articulo){
         boolean flag= false;
         
@@ -94,9 +89,8 @@ public class EjercicioControlador {
         
     }
     
-    /*
-     * Método para solicitar libros
-     * */       
+//Método para solicitar libros
+    
     public boolean solicitarLibro(int codigoCliente, int codigoLibro){
         boolean flag=false;
         for(Cliente cliente:clientes){
@@ -123,9 +117,8 @@ public class EjercicioControlador {
         return flag;
     }
     
-    /*
-     * Método para solicitar las revistas
-     * */    
+//Método para solicitar las revistas
+    
     public boolean solicitarRevista(int codigoCliente, int codigoRevista){
         boolean flag=false;
         for(Cliente cliente:clientes){
@@ -154,9 +147,8 @@ public class EjercicioControlador {
     
     
     
-    /*
-     * Método para solicitar articulos
-     * */    
+//Método para solicitar articulos
+        
     
     public boolean solicitarArticulo(int codigoCliente, int codigoArticulo){
         boolean flag=false;
@@ -184,9 +176,7 @@ public class EjercicioControlador {
         return flag;
     }
 
-    /*
-     * Se crearon los getters y setters
-     * */    
+// Se crearon los getters y setters   
     
     public ArrayList<Cliente> getClientes() {
         return clientes;

@@ -19,10 +19,8 @@ public class Libro extends LibroPadre {
         this.editorial = editorial;
     }
     
-    /*
-     * Se crearon los getters y setters dependiendo de los atributos.
-     * */  
-
+    //Se crearon los getters y setters dependiendo de los atributos.
+     
     public String getAutor() {
         return autor;
     }

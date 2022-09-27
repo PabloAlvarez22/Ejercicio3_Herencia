@@ -18,9 +18,7 @@ public class Articulo  extends LibroPadre {
         this.arbitro = arbitro;
     }
     
-    /*
-     * Se crearon los getters y setters dependiendo de los atributos.
-     * */  
+    //Se crearon los getters y setters dependiendo de los atributos. 
 
     public String getArbitro() {
         return arbitro;

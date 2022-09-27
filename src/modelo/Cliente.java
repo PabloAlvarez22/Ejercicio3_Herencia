@@ -10,9 +10,7 @@ public class Cliente {
     private int cantidadPublicaciones;
     private ArrayList<LibroPadre> librosPrestados = new ArrayList();
     
-    /*
-     * Se crearon los getters y setters dependiendo de los atributos.
-     * */    
+    //Se crearon los getters y setters dependiendo de los atributos.   
     
     public int getNumeroIdentidad() {
         return numeroIdentidad;
